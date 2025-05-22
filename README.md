@@ -8,6 +8,7 @@ The "animal_data" directory contains a rich collection of animal images, meticul
 
 ***Structure:*** The dataset is organized into 15 folders, where each folder represents a unique animal class.
 ***Classes:*** The dataset includes images for the following 15 animal categories:
+
 ⚡Bear
 
 ⚡Bird
