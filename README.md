@@ -56,6 +56,7 @@ The project follows a standard deep learning workflow for image classification:
 ***Data Loading:*** Images are loaded directly from the directory structure using tf.keras.utils.image_dataset_from_directory, automatically inferring labels from folder names.
 
 ***Data Preprocessing:***
+
 ✔️Images are resized to a uniform size (e.g., 256×256) during loading.
 
 ✔️Pixel values are normalized to a range suitable for neural networks (e.g., 0-1).
@@ -65,6 +66,7 @@ The project follows a standard deep learning workflow for image classification:
 ***Data Augmentation:*** (Implied by "augmented images" in dataset description, though not explicitly shown in current code snippets for ImageDataGenerator). This is crucial for improving model generalization by creating variations of existing images (e.g., rotations, flips, zooms).
 
 ***Model Architecture:*** A Convolutional Neural Network (CNN) is designed using TensorFlow/Keras. The architecture typically includes:
+
 ✔️Conv2D layers for feature extraction.
 
 ✔️MaxPooling2D layers for dimensionality reduction.
